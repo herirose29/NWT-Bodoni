@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'NWT Bodoni';
+  src: url('../fonts/NWTBodoni-Regular.woff2') format('woff2'),
+    url('../fonts/NWTBodoni-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NWT Bodoni';
+  src: url('../fonts/NWTBodoni-Bold.woff2') format('woff2'),
+    url('../fonts/NWTBodoni-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'NWT Bodoni';
+  src: url('../fonts/NWTBodoni-Italic.woff2') format('woff2')
+    url('../fonts/NWTBodoni-Italic.woff') format('woff');
+  font-style: italic;
+  font-weight: normal;
+}

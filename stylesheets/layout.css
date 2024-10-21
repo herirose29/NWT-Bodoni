@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  font-family: 'NWT Bodoni';
+  display: block;
+  margin: 0 auto;
+}
+.section-1 {
+  display: flex;
+  font-weight: 400;
+  padding: 0 66 0 66;
+}
+.section-1 img {
+  width: 1303px;
+}
+.section-1 div:nth-of-type(1) p {
+  font-size: 128px;
+}
+.section-1 div:nth-of-type(2) p {
+  font-size: 32px;
+}
+.section-1 div:nth-of-type(3) p {
+  font-size: 24px;
+}
