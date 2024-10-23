@@ -6,21 +6,169 @@ body {
   font-family: 'NWT Bodoni';
   display: block;
   margin: 0 auto;
+  position: relative;
+}
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/maket.svg');
+  width: 1440px;
+  height: 9432px;
+  opacity: 0.2;
 }
 .section-1 {
   display: flex;
   font-weight: 400;
-  padding: 0 66 0 66;
+  padding: 0 67px 0 67px;
+  margin-left: 1px;
+  color: #1f3155;
 }
 .section-1 img {
   width: 1303px;
+  position: absolute;
 }
-.section-1 div:nth-of-type(1) p {
+.section-1 h1 {
   font-size: 128px;
+  text-align: center;
+  margin-top: 363px;
+  margin-left: 461px;
 }
-.section-1 div:nth-of-type(2) p {
+.section-1 h2 {
   font-size: 32px;
+  margin-top: 765px;
+  margin-left: -578px;
 }
-.section-1 div:nth-of-type(3) p {
+.section-1 h3 {
   font-size: 24px;
+  margin-top: 807px;
+  margin-left: -580px;
+}
+.section-2 div p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 500px;
+  margin-left: 620px;
+  color: #1f3155;
+}
+.tape1 {
+  margin-top: -1794px;
+  margin-left: 414px;
+}
+.arch2 {
+  margin-top: -784px;
+}
+.holy {
+  margin-top: 6px;
+  margin-left: 311px;
+}
+.books {
+  margin-top: 152px;
+  margin-left: 401px;
+}
+.main {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -587px;
+  margin-left: 579px;
+  color: #1f3155;
+}
+.regular {
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 240px;
+  margin-left: 578px;
+  line-height: normal;
+  color: #f7b81f;
+}
+.bold {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-left: 561px;
+  line-height: normal;
+  color: #1f3155;
+}
+.italic {
+  font-size: 48px;
+  font-weight: normal;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 56px;
+  margin-left: 620px;
+  color: #f7b81f;
+}
+
+.tape2 {
+  margin-top: 44px;
+  margin-left: 1068px;
+}
+.tape2title {
+  margin-top: -270px;
+}
+.background-pattern {
+  width: 322px;
+  height: 277px;
+  margin-top: -415px;
+  margin-left: 780px;
+  background: url(../images/pattern.svg);
+}
+.background-book {
+  width: 1175px;
+  height: 734px;
+  margin-top: -30px;
+  margin-left: 122px;
+  background: url(../images/book.svg);
+}
+.section-4 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -495px;
+  margin-left: 330px;
+  line-height: normal;
+  color: #1f3155;
+}
+.section-4 p {
+  font-size: 32px;
+  font-weight: 400;
+  color: #1f3155;
+  line-height: normal;
+}
+.section-4 div p {
+  margin-top: 58px;
+  margin-left: 328px;
+}
+.section-4 h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: -520px;
+  margin-left: 767px;
+  line-height: normal;
+  color: #1f3155;
+}
+.tapetitle2 {
+  margin-top: 477px;
+}
+.cross {
+  text-align: right;
+  margin-top: -61px;
+}
+.background-ferst {
+  width: 1444px;
+  height: 174px;
+  margin-top: -785px;
+  background: url(../images/fersttitle.svg);
+}
+.background-midle {
+  width: 1256px;
+  height: 141px;
+  background: url(../images/midleline.svg);
+}
+.background-last {
+  width: 1397px;
+  height: 141px;
+  background: url(../images/lastline.svg);
 }
