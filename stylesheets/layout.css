@@ -113,7 +113,7 @@ body::after {
   width: 322px;
   height: 277px;
   margin-top: -415px;
-  margin-left: 780px;
+  margin-left: -780px;
   background: url(../images/pattern.svg);
 }
 .background-book {
@@ -157,7 +157,7 @@ body::after {
   margin-top: -61px;
 }
 .background-ferst {
-  width: 1444px;
+  width: 1440px;
   height: 174px;
   margin-top: -785px;
   background: url(../images/fersttitle.svg);
@@ -165,10 +165,120 @@ body::after {
 .background-midle {
   width: 1256px;
   height: 141px;
+  margin-top: 53px;
   background: url(../images/midleline.svg);
 }
 .background-last {
   width: 1397px;
   height: 141px;
+  margin-top: 55px;
   background: url(../images/lastline.svg);
+}
+.letters .n {
+  width: 155px;
+  height: 150px;
+  margin-top: -550px;
+  margin-left: 173px;
+  background: url(../images/n.svg);
+}
+.letters .o {
+  width: 141px;
+  height: 118px;
+  margin-top: 75px;
+  margin-left: 833px;
+  background: url(../images/o.svg);
+}
+.letters .r {
+  width: 140px;
+  height: 118px;
+  margin-top: 77px;
+  margin-left: 190px;
+  background: url(../images/r.svg);
+}
+.des1 p {
+  margin-top: -487px;
+  margin-left: 343px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: #f7b81f;
+}
+.des1 ul {
+  margin-top: -50px;
+  margin-left: 478px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: #f7b81f;
+}
+.des2 p {
+  margin-top: 164px;
+  margin-left: 995px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: #f7b81f;
+}
+.des2 ul {
+  margin-top: -45px;
+  margin-left: 476px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: #f7b81f;
+}
+.des3 p {
+  margin-top: 146px;
+  margin-left: 350px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: #f7b81f;
+}
+.des3 ul {
+  margin-top: -48px;
+  margin-left: 478px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: #f7b81f;
+}
+.text1 p {
+  margin-top: 219px;
+  margin-left: 111px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  color: #1f3155;
+}
+.text2 p {
+  margin-top: 24px;
+  margin-left: 111px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  color: #1f3155;
+}
+.background-list1 {
+  width: 373px;
+  height: 559px;
+  transform: rotate(3.263deg);
+  background: url(../images/list1.svg);
+}
+.background-list2 {
+  width: 264px;
+  height: 382px;
+  transform: rotate(11.652deg);
+  background: url(../images/list2.svg);
+}
+.background-list3 {
+  width: 301px;
+  height: 451px;
+  transform: rotate(-6.386deg);
+  background: url(../images/list3.svg);
+}
+.background-list4 {
+  width: 451px;
+  height: 653px;
+  background: url(../images/list4.svg);
 }
