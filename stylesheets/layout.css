@@ -7,7 +7,7 @@ body {
   font-family: 'NWT Bodoni';
   background-color: #e0e0e0;
 }
-body::after {
+/*body::after {
   background: url('../images/maket.svg');
   background-size: cover;
   content: '';
@@ -19,7 +19,7 @@ body::after {
   width: 1440px;
   height: 9432px;
   opacity: 0.2;
-}
+}*/
 
 .image-1 {
   position: relative;
