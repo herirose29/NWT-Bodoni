@@ -220,28 +220,22 @@ body {
   text-align: center;
 }
 .textp div:nth-of-type(1) p {
-  margin-top: 57px;
-  margin-left: -2px;
+  margin-top: 58px;
 }
 .textp div:nth-of-type(2) p {
-  margin-top: 4px;
-  margin-left: -10px;
+  margin-top: 10px;
 }
 .textp div:nth-of-type(3) p {
-  margin-top: 2px;
-  margin-left: -9px;
+  margin-top: 10px;
 }
 .textp div:nth-of-type(4) p {
-  margin-top: 6px;
-  margin-left: -3px;
+  margin-top: 10px;
 }
 .textp div:nth-of-type(5) p {
-  margin-top: 12px;
-  margin-left: -9px;
+  margin-top: 10px;
 }
 .textp div:nth-of-type(6) p {
-  margin-top: 13px;
-  margin-left: -12px;
+  margin-top: 10px;
 }
 .section-5 {
   position: relative;
